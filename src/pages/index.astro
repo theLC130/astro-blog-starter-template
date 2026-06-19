@@ -36,10 +36,10 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .btn-ghost { background: transparent; color: var(--text-sage); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.75rem 1.75rem; border: 0.5px solid var(--border-mid); cursor: pointer; font-family: 'DM Sans', sans-serif; text-decoration: none; }
 .btn-ghost:hover { border-color: var(--text-sage); color: var(--text-secondary); }
 .section { padding: 4rem 3rem; border-bottom: 0.5px solid var(--border-subtle); }
-.section-label { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-sage); margin-bottom: 2.5rem; }
+.section-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-sage); margin-bottom: 2.5rem; }
 .work-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border-subtle); }
 .work-card { background: var(--bg-primary); padding: 2rem; }
-.work-tag { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-sage); margin-bottom: 1rem; }
+.work-tag { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-sage); margin-bottom: 1rem; }
 .work-title { font-family: 'Cormorant Garamond', serif; font-size: 28px; color: var(--text-primary); line-height: 1.2; margin-bottom: 0.5rem; }
 .work-desc { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
 .about-grid { display: grid; grid-template-columns: 2fr 3fr; gap: 4rem; }
@@ -48,7 +48,7 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .about-body { font-size: 14px; color: var(--text-sage); line-height: 1.8; }
 .about-body p { margin-bottom: 1rem; }
 .skills-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 2rem; }
-.skill-tag { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); border: 0.5px solid var(--border-subtle); padding: 0.4rem 0.75rem; }
+.skill-tag { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); border: 0.5px solid var(--border-subtle); padding: 0.4rem 0.75rem; }
 .contact-row { display: flex; align-items: center; justify-content: space-between; }
 .contact-headline { font-family: 'Cormorant Garamond', serif; font-size: 52px; color: var(--text-primary); line-height: 1.1; }
 .contact-headline em { font-style: italic; color: var(--accent-gold); }
@@ -64,7 +64,7 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .gallery-controls { position: absolute; bottom: 0.75rem; right: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
 .gallery-btn { background: var(--bg-primary); color: var(--text-sage); border: 0.5px solid var(--border-subtle); font-size: 12px; padding: 0.25rem 0.6rem; cursor: pointer; font-family: 'DM Sans', sans-serif; }
 .gallery-btn:hover { color: var(--text-primary); }
-.gallery-counter { font-size: 11px; color: var(--text-sage); letter-spacing: 0.08em; border: 0.5px solid var(--border-subtle); background: var(--bg-primary); padding: 0.2rem 0.5rem; }
+.gallery-counter { font-size: 10px; color: var(--text-sage); letter-spacing: 0.08em; border: 0.5px solid var(--border-subtle); background: var(--bg-primary); padding: 0.2rem 0.5rem; }
 .overlay { display: none; position: fixed; inset: 0; background: rgba(14, 13, 12, 0.85); z-index: 200; align-items: center; justify-content: center; padding: 2rem; }
 .overlay.active { display: flex; }
 .overlay-inner { background: var(--bg-primary); border: 0.5px solid var(--border-subtle); width: 100%; max-width: 900px; max-height: 90vh; overflow-y: auto; display: flex; flex-direction: column; position: relative; }
@@ -76,18 +76,38 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .overlay-img.active { opacity: 1; pointer-events: auto; }
 .overlay-close { position: absolute; top: 1rem; right: 1rem; background: none; border: none; color: var(--text-sage); font-size: 20px; cursor: pointer; z-index: 201; }
 .overlay-close:hover { color: var(--text-primary); }
-.overlay-tag { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-sage); margin-bottom: 0.75rem; }
+.overlay-tag { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-sage); margin-bottom: 0.75rem; }
 .overlay-title { font-family: 'Cormorant Garamond', serif; font-size: 32px; color: var(--text-primary); line-height: 1.2; margin-bottom: 1.5rem; }
 .overlay-field { margin-bottom: 1.5rem; }
-.overlay-field-label { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-sage); margin-bottom: 0.4rem; }
+.overlay-field-label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-sage); margin-bottom: 0.4rem; }
 .overlay-field-value { font-size: 15px; color: var(--text-muted); line-height: 1.7; }
-.btn-case { display: inline-block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-sage); border: 0.5px solid var(--border-mid); padding: 0.4rem 0.9rem; cursor: pointer; background: none; font-family: 'DM Sans', sans-serif; margin-top: 1rem; }
+.btn-case { display: inline-block; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-sage); border: 0.5px solid var(--border-mid); padding: 0.4rem 0.9rem; cursor: pointer; background: none; font-family: 'DM Sans', sans-serif; margin-top: 1rem; }
 .btn-case:hover { color: var(--accent-gold); border-color: var(--accent-gold); }
 
 @media (max-width: 768px) {
+  nav { padding: 1.25rem 1.5rem; }
+  .nav-links { gap: 1.25rem; }
+  .nav-links a { font-size: 10px; }
+
+  section[style*="grid-template-columns: 1fr auto 1fr"] > div:first-child { 
+    grid-template-columns: 1fr !important; 
+  }
+  
+  .work-grid { grid-template-columns: 1fr; }
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  
+  .hero-title { font-size: 48px; }
+  .contact-headline { font-size: 36px; }
+  
   .overlay { padding: 0; align-items: flex-end; }
-  .overlay-inner { grid-template-columns: 1fr; max-height: 92vh; border-radius: 0; border-left: none; border-right: none; border-bottom: none; }
-  .overlay-gallery { aspect-ratio: 16/9; }
+  .overlay-inner { max-height: 92vh; border-radius: 0; border-left: none; border-right: none; border-bottom: none; }
+  .overlay-gallery { aspect-ratio: 16/9; min-height: 250px; }
+
+  .hero-grid { grid-template-columns: 1fr !important; }
+  .hero-grid > div[style*="width: 0.5px"] { display: none; }
+
+  .section { padding: 2.5rem 1.5rem; }
+  footer { padding: 1.5rem; }
 }
   </style>
 
@@ -102,7 +122,7 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
   </nav>
 
 <section style="border-bottom: 0.5px solid;">
-  <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 0; align-items: center;">
+  <div  class="hero-grid" style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 0; align-items: center;">
     
     <div style="padding: 7rem 3rem 6rem;">
       <h1 class="hero-title">Senior Game Designer</h1>
@@ -115,7 +135,7 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
     <div style="width: 0.5px; align-self: stretch;"></div>
 
     <div style="padding: 7rem 3rem 6rem;">
-      <p style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 2rem; color: var(--text-sage)">What I do</p>
+      <p style="font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 2rem; color: var(--text-sage)">What I do</p>
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem 2rem;">
         <span style="font-family: 'Cormorant Garamond', serif; font-size: 28px; color: var(--text-primary)">Systems Design</span>
         <span style="font-family: 'Cormorant Garamond', serif; font-size: 28px; color: var(--text-primary)">Game Economy</span>
@@ -128,16 +148,16 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
   </div>
 
   <div style="border-top: 0.5px solid; padding: 2.5rem 3rem;">
-    <p style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 1.5rem; color: var(--text-sage)">What I shipped</p>
+    <p style="font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 1.5rem; color: var(--text-sage)">What I shipped</p>
     <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
-      <img src="/maddenmobile26icon.jpg" alt="Madden Mobile 26" style="width: 96px; height: 96px; border-radius: 11px;" />
-      <img src="/maddenmobile25icon.jpg" alt="Madden Mobile 25" style="width: 96px; height: 96px; border-radius: 11px;" />
-      <img src="/maddenmobile24icon.jpg" alt="Madden Mobile 24" style="width: 96px; height: 96px; border-radius: 11px;" />
-      <img src="/maddenmobile23icon.jpg" alt="Madden Mobile 23" style="width: 96px; height: 96px; border-radius: 11px;" />
-      <img src="/maddenmobile22icon.jpg" alt="Madden Mobile 22" style="width: 96px; height: 96px; border-radius: 11px;" />
-      <img src="/nbalive20icon.jpg" alt="NBA Live 20" style="width: 96px; height: 96px; border-radius: 11px;" />
-      <img src="/nbalive19icon.jpg" alt="NBA Live 19" style="width: 96px; height: 96px; border-radius: 11px;" />
-      <img src="/nbalive18icon.jpg" alt="NBA Live 18" style="width: 96px; height: 96px; border-radius: 11px;" />
+      <img src="/maddenmobile26icon.jpg" alt="Madden Mobile 26" style="width: 96px; height: 96px; border-radius: 10px;" />
+      <img src="/maddenmobile25icon.jpg" alt="Madden Mobile 25" style="width: 96px; height: 96px; border-radius: 10px;" />
+      <img src="/maddenmobile24icon.jpg" alt="Madden Mobile 24" style="width: 96px; height: 96px; border-radius: 10px;" />
+      <img src="/maddenmobile23icon.jpg" alt="Madden Mobile 23" style="width: 96px; height: 96px; border-radius: 10px;" />
+      <img src="/maddenmobile22icon.jpg" alt="Madden Mobile 22" style="width: 96px; height: 96px; border-radius: 10px;" />
+      <img src="/nbalive20icon.jpg" alt="NBA Live 20" style="width: 96px; height: 96px; border-radius: 10px;" />
+      <img src="/nbalive19icon.jpg" alt="NBA Live 19" style="width: 96px; height: 96px; border-radius: 10px;" />
+      <img src="/nbalive18icon.jpg" alt="NBA Live 18" style="width: 96px; height: 96px; border-radius: 10px;" />
     </div>
   </div>
 
